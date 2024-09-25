@@ -20,7 +20,8 @@ except ImportError:
 def get_encoding(data):
     """Try to get encoding incrementally.
 
-    See http://chardet.readthedocs.org/en/latest/usage.html#example-detecting-encoding-incrementally  # noqa
+    See http://chardet.readthedocs.org/en/latest/usage.html
+        #example-detecting-encoding-incrementally  # noqa
     """
     start = time.time()
     msg = "detecting file encoding..."
