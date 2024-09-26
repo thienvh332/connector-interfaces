@@ -1,0 +1,4 @@
+odoo_test_helper
+
+odoo-addon-queue_job @ git+https://github.com/oca/queue.git@refs/pull/692/head#subdirectory=queue_job
+odoo-addon-connector @ git+https://github.com/oca/connector.git@refs/pull/494/head#subdirectory=connector
