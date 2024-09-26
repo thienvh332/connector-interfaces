@@ -33,7 +33,7 @@ def get_encoding(data):
         if detector.done:
             break
     detector.close()
-    msg = "encoding found in %s sec" % str(time.time() - start)
+    msg = f"encoding found in {str(time.time() - start)} sec"
     msg += str(detector.result)
     logger.info(msg)
     return detector.result
